@@ -33,11 +33,9 @@ function createBoxes(amount) {
 
     divSet.push(divEl);
   }
-  console.log(divSet);
+
   boxesEl.append(...divSet);
 }
-
-
 
 btnDestroyBox.addEventListener('click', destroyBoxes);
 
