@@ -25,9 +25,10 @@ function createBoxes(amount) {
   for (let i = 0; i < amount; i += 1) {
     const divEl = document.createElement('div');
     const divSize = 30 + 10 * i;
+    const colorRandom = getRandomHexColor();
 
-    divEl.style.backgroundColor = getRandomHexColor();
-    divEl.textContent = getRandomHexColor();
+    divEl.style.backgroundColor = colorRandom;
+    divEl.textContent = colorRandom;
     divEl.style.width = `${divSize}` + 'px';
     divEl.style.height = `${divSize}` + 'px';
 
