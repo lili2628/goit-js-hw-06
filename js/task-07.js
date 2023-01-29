@@ -10,7 +10,7 @@ textEl.style.fontSize = inputEl.value + 'px';
 inputEl.addEventListener('input', onChangeTextSize);
 
 function onChangeTextSize(event) {
-    //event.preventDefault();
+  
     textEl.style.fontSize = event.currentTarget.value + 'px'; 
     
 }

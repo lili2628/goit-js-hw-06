@@ -12,7 +12,6 @@ function onFormSubmit(event) {
         password: formElements.password.value,
     };
 
-
   if (formData.email === '' || formData.password === '') {
     return alert("Please fill in all the fields!");
   }
